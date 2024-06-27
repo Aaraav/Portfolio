@@ -35,7 +35,7 @@ export default function Header() {
       <h1 style={{ fontSize: '30px' }}><span>A</span>araav</h1>
       {isMobile ? (
         <>
-          <img src='/src/assets/menu-burger.png' alt='Menu' onClick={toggleMenu} style={{ cursor: 'pointer',width:'70px',height:'70px' }} />
+          <img src='https://github.com/Aaraav/Portfolio/assets/76102028/cc2ac7c6-5e5c-44e2-9dc1-cd7be320aa50' alt='Menu' onClick={toggleMenu} style={{ cursor: 'pointer',width:'70px',height:'70px' }} />
           {menuVisible && (
             <ul style={{ display: 'flex', flexDirection: 'column',color:'white', position: 'absolute', top: '10vh', right: '0', backgroundColor: '#1a1a1a', listStyle: 'none', padding: '10px',zIndex:'100000000' }}>
               <li style={{ padding: '10px', fontSize: '20px' }}><a href='#aboutme'>About</a></li>

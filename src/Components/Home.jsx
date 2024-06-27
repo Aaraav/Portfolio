@@ -27,7 +27,7 @@ export default function Home() {
 
         <Avatar
   alt="Remy Sharp"
-  src="/src/assets/me.jpg"
+  src="https://github.com/Aaraav/Portfolio/assets/76102028/3a90f1d3-ed67-4e93-9671-d23756fb1111"
   sx={{ width: 300, height: 300 }}
   style={{marginTop:'25vh',marginLeft:'18%'
     

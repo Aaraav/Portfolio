@@ -15,7 +15,7 @@ export default function Aboutme() {
 
            <Avatar
   alt="Remy Sharp"
-  src="/src/assets/portfolioimage.jpg"
+  src="https://github.com/Aaraav/Portfolio/assets/76102028/4c4c6fc1-7d2c-47c6-b363-3a985eeb3fd7"
   sx={{ width: 300, height: 300 }}
   style={{marginTop:'15vh',marginLeft:'12%',marginRight:'10%'
     

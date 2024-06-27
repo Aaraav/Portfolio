@@ -39,12 +39,12 @@ export default function Projects() {
   
             </div>
             <div id='project-row' style={{ display: 'flex', width: '100%', padding: '10px',justifyContent:'space-between' }} className="hide-scrollbar">
-            <X imgg="/src/assets/Screenshot 2024-06-27 132107.png" title="Selemn" btn1="https://github.com/Aaraav/Selemenreact.git" btn2="https://aaraavselemn.netlify.app" />
+            <X imgg="https://github.com/Aaraav/Portfolio/assets/76102028/293caa7d-157e-4945-94dc-f3edee9ac08e" title="Selemn" btn1="https://github.com/Aaraav/Selemenreact.git" btn2="https://aaraavselemn.netlify.app" />
 
-  <X imgg="/src/assets/Screenshot 2024-05-01 174737.png" title="UrbanGroove" btn1="https://github.com/Aaraav/restaurant-backend.git" btn2="https://urbangroove.netlify.app" />
-  <X imgg="/src/assets/Screenshot 2024-02-14 131326.png" title="PatilKaki" btn1="https://github.com/Aaraav/patilkaki.git" btn2="https://patilkakiaaraav.netlify.app" />
-  <X imgg="/src/assets/Screenshot 2024-06-27 132448.png" title="VentureAgency" btn1="https://github.com/Aaraav/movie-maina.git" btn2="https://aaraav.netlify.app" />
-            <X imgg="/src/assets/Screenshot 2024-06-27 133421.png" title="SocioHub" btn1="https://github.com/Aaraav/SocialMedia.git" btn2="" />
+  <X imgg="https://github.com/Aaraav/Portfolio/assets/76102028/595b99a1-9513-4df2-84df-fd729c2fe6b9" title="UrbanGroove" btn1="https://github.com/Aaraav/restaurant-backend.git" btn2="https://urbangroove.netlify.app" />
+  <X imgg="https://github.com/Aaraav/Portfolio/assets/76102028/d35258b5-bd79-4cf1-be59-22ec94786e20" title="PatilKaki" btn1="https://github.com/Aaraav/patilkaki.git" btn2="https://patilkakiaaraav.netlify.app" />
+  <X imgg="https://github.com/Aaraav/Portfolio/assets/76102028/72626434-000c-4aca-908c-8c0c7823855f" title="VentureAgency" btn1="https://github.com/Aaraav/movie-maina.git" btn2="https://aaraav.netlify.app" />
+            <X imgg="https://github.com/Aaraav/Portfolio/assets/76102028/9b63b44f-2f69-4dd1-bd12-908fe1cb2c5a" title="SocioHub" btn1="https://github.com/Aaraav/SocialMedia.git" btn2="" />
 
 </div>
 
