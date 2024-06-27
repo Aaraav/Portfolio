@@ -1,0 +1,165 @@
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+
+  #header h1{
+    margin-left:150px;
+  }
+  #main-skill{
+    width: 100vw;
+     height: 100vh
+  }
+  
+  .box{
+    width: 300px;
+     height: 60vh
+  }
+
+  #contact{
+    height: 80vh;
+  }
+
+  #cont{
+    margin-left: 40%;
+  }
+  .line{
+    marginTop: 18vh;
+  }
+  #skills{
+    justify-content:space-between;
+  }
+
+  #project-row{
+     overflow-x: scroll
+  }
+  #footer ul{
+margin-left: 35%;
+  }
+  .high-box{
+    padding-top: 8vh;
+    margin: 50px;
+  }
+
+  #contact-text{
+    margin-top:10vh;
+   }
+
+  @media  screen and (max-width:1200px) {
+    
+    body {
+      overflow-x: hidden;
+  }
+    #home{
+  flex-direction: column;
+  align-items: center;
+ 
+    }
+    #profile-img{
+      position: absolute;
+      top:2%;
+    }
+
+    #home-content{
+      position: absolute;
+      top:38%;
+    }
+
+    #aboutme{
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #profile-img2{
+      top:110%;
+      position: absolute;
+    }
+
+    #aboutme p{
+      margin-top: 85%;
+      text-align: center;
+      font-size: 15px;
+      margin-left: 10%;
+      
+    }
+
+  
+
+    #main-skill{
+      
+      align-items: center;
+      height: 220vh;
+    }
+
+    #skills{
+      flex-direction: column;
+      align-items: center;
+      justify-content: unsafe;
+      
+
+    }
+
+    .box{
+width: 80vw;
+height: 40vh;
+    }
+
+    .high-box{
+      padding-top: 2vh;
+      margin: 0px;
+    }
+
+    .line{
+      margin-top: 0px;
+    }
+    
+
+   #x{
+    height: 100px;
+    padding: 20px;
+   }
+
+   #project-row{
+    overflow-x: auto;
+   }
+
+   #contact{
+    height: 50vh;
+
+    
+   }
+   #contact-text{
+    margin-top:00vh;
+   }
+  
+
+   
+   #cont{
+    margin-left: 20%;
+   }
+
+   #footer ul {
+  margin-left: 10%;
+  
+   }
+   #footer ul li a{
+    font-size: 15px;
+   }
+
+   #header h1{
+margin-left: 30px;
+   }
+
+   #header ul{
+    flex-direction: column;
+    margin-left: 40%;
+   }
+
+
+
+  }
+  
