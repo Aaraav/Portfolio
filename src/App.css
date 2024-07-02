@@ -75,8 +75,12 @@ margin-left: 35%;
     }
 
     #profile-img2{
-      top:110%;
+      top:108%;
       position: absolute;
+      width: 250px;
+      height: 250px;
+      left: 8%;
+      
     }
 
     #aboutme p{
@@ -158,6 +162,31 @@ margin-left: 30px;
     flex-direction: column;
     margin-left: 40%;
    }
+
+   #page0{
+    
+   }
+   #head1{
+    font-size: 50px;
+    margin-top: 16vh;
+   }
+   #head2{
+    font-size: 50px;
+
+
+   }
+   #head3{
+    font-size: 50px;
+
+
+   }
+   #welcome{
+      font-size: 50px;
+      margin-top: 40vh;
+  
+     
+   }
+
 
 
 

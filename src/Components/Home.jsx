@@ -1,10 +1,43 @@
 import React from 'react'
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 export default function Home() {
+
+  useGSAP(()=>{
+    document.querySelector('#bodyy').addEventListener('mousemove',function(dets){
+      // console.log(dets.x,dets.y);
+      gsap.to('#cursor',{
+        x:dets.x,
+        y:dets.y,
+        duration:'1',
+        ease:'back.out'
+    
+      })
+    })
+   
+    gsap.from('#home-content',{
+      yPercent:'-90',
+      opacity:0,
+      duration:1,
+      delay:4,
+      stagger:'1'
+
+    })
+    gsap.from('#profile-img',{
+      opacity:'0',
+      delay:'4'
+    })
+  })
   return (
     <div>
+
+<div
+          id="cursor"
+          className="z-50 absolute w-16 h-16 bg-stone-600 rounded-full"
+         
+        />
     <div id='home' style={{width:'90vw',marginLeft:'0px',marginTop:'0px',height:'100vh',display:'flex'}}>
 
 <div id='home-content' style={{marginTop:'35vh',marginLeft:'15vw',color:'rgb(85,85,85)'}}>

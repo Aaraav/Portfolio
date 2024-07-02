@@ -1,11 +1,64 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import  Avatar  from '@mui/material/Avatar'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger);
+
 export default function Aboutme() {
+  useGSAP(()=>{
+    gsap.from('#aboutme', {
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: '#aboutme',
+        start: 'top 80%',
+        end: 'bottom 20%',
+       
+      },
+
+     
+    });
+      gsap.from('.textmain', {
+        opacity: 0,
+        duration: 2,
+        yPercent:'100',
+        scrollTrigger: {
+          trigger: 'body',
+          start: 'top 90%',
+          end: 'bottom 20%',
+        },
+        stagger:'2'
+  
+       
+      });
+    
+
+    gsap.from('#aboutme p', {
+      opacity: 0,
+      duration: 2,
+      yPercent:'100',
+      scrollTrigger: {
+        trigger: '#aboutme',
+        start: 'top 90%',
+        end: 'bottom 20%',
+      },
+      stagger:'2'
+
+     
+    });
+
+    
+
+   
+  })
+  
+
   return (
     <>
         <div id='aboutme' style={{backgroundColor:'rgb(85,85,85)',width:"100vw",height:'100vh',color:'white'}}>
             
-            <div style={{textAlign:'center'}}>
+            <div className='textmain'  style={{textAlign:'center'}}>
                 <h3 style={{paddingTop:'30px',fontSize:'15px'}}>Want to know more</h3>
                 <h1 style={{paddingTop:'10px',fontSize:'35px'}}>About Me</h1>
 

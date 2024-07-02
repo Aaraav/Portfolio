@@ -1,10 +1,27 @@
 import React from 'react'
-
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 export default function Contact() {
+
+  useGSAP(()=>{
+    gsap.from('.textmain4', {
+        opacity: 0,
+        yPercent:'-100',
+        duration: 2,
+        scrollTrigger: {
+          trigger: '#projects',
+          start: 'top 90%',
+          end: 'bottom 20%',
+        },
+        stagger:'2'
+  
+       
+      });
+})
   return (
     <div id='contact'  style={{ width: '100vw',alignItems:'center' }}>
 
-    <div id='contact-text' style={{textAlign:'center'}}>
+    <div className='textmain4'  id='contact-text' style={{textAlign:'center'}}>
                     <h3 id='con'  style={{paddingTop:'30px',fontSize:'15px'}}>Get in Touch</h3>
                     <h1 style={{paddingTop:'10px',fontSize:'35px',fontWeight:'Bold'}}>Contact Me</h1>
       
